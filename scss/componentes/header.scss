@@ -1,0 +1,17 @@
+header {
+    background-color: nth($colores,2); nav { 
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 10px;
+        border: 2px solid nth($colores,1); a {
+                width: nth($size,4); .image {
+                    width: nth($size,4); button {
+                        background-color: nth($colores,1);
+                        font-family: nth($fonts,2)
+                }
+            }
+        }   
+    }
+}

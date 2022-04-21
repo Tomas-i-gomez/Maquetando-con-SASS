@@ -1,0 +1,21 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+section {
+    background-color: nth($colores,3);
+    h1 {
+        display: flex;
+        justify-content: center;
+        font-family: nth($fonts,3);
+        font-size: nth($size,3);
+        padding-top: nth($size,1);
+    } p {
+        font-family: nth($fonts,1);
+        font-size: nth($size,2);
+        padding-top: 10px;
+    } img {
+        width:nth($size,7) ;
+    }
+}

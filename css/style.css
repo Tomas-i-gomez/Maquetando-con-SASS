@@ -1,0 +1,63 @@
+header {
+  background-color: coral;
+}
+header nav {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+header nav a {
+  width: 75px;
+}
+header nav a .image {
+  width: 75px;
+}
+header nav a .image button {
+  background-color: black;
+  font-family: Arial;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+section {
+  background-color: lightblue;
+}
+section h1 {
+  display: flex;
+  justify-content: center;
+  font-family: Helvetica;
+  font-size: 50px;
+  padding-top: 15px;
+}
+section p {
+  font-family: Verdana;
+  font-size: 25px;
+  padding-top: 10px;
+}
+section img {
+  width: 1000px;
+}
+
+footer {
+  background-color: coral;
+}
+footer h2 {
+  display: flex;
+  justify-content: center;
+  font-family: Helvetica;
+  font-size: 25px;
+  padding-top: 15px;
+}
+footer .parrafo {
+  font-family: Verdana;
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
