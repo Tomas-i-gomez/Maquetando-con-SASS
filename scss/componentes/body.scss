@@ -4,12 +4,12 @@
 }
 
 section {
+    @include flexbox(block);
     background-color: nth($colores,3);
     h1 {
         display: flex;
         justify-content: center;
-        font-family: nth($fonts,3);
-        font-size: nth($size,3);
+        @extend %fonts;
         padding-top: nth($size,1);
     } p {
         font-family: nth($fonts,1);

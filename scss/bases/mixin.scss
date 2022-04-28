@@ -1,0 +1,7 @@
+@mixin flexbox ($flex){
+    display: $flex
+}
+
+@mixin border ($border) {
+    border: $border
+}

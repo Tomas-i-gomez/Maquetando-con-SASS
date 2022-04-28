@@ -1,4 +1,6 @@
 @import "bases/lists.scss";
-@import "componentes/header.scss";
-@import "componentes/body.scss";
+@import 'bases/extends.scss';
+@import 'bases/mixin.scss';
+@import 'componentes/header.scss';
+@import 'componentes/body.scss';
 @import 'componentes/footer.scss';

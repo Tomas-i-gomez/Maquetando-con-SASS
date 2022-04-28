@@ -1,0 +1,11 @@
+%flex {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+%fonts {
+    font-family: nth($fonts,3);
+    font-size: nth($size,2);
+}
